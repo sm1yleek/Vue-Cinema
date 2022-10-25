@@ -1,0 +1,42 @@
+.icon-film::before {
+    content: '\f008';
+    font-weight: 300;
+    color: var(--text)
+    
+}  
+
+.icon-play::before{
+    content: '\f04b';
+    font-weight: 900;
+    position: absolute;
+    color: var(--text)
+    
+}
+
+.icon-play::after{
+    content: '\10f04b';
+    font-weight: 900;
+    opacity: 0.5;
+    color: var(--text)
+}
+
+
+/* ADS************************************************************************************************************************************ */
+
+
+
+.icon-menu::before{
+    content: '\f142';
+    font-weight: 900;
+    color: var(--btn);
+    position: absolute;
+    
+}
+
+.icon-menu::after{
+    content: '\10f142';
+    font-weight: 900;
+    color: var(--text);
+    opacity: 0.5;
+    
+}
